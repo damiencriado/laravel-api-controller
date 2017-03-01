@@ -3,6 +3,8 @@
 [![Packagist Latest Version][ico-version]][link-packagist]
 [![Packagist Total Downloads][ico-downloads]][link-downloads]
 [![Software License][ico-license]](LICENSE.md)
+[![Code Climate][ico-codeclimate]][link-codeclimate]
+[![Code Climate Coverage][ico-coverage]][link-codeclimate]
 [![StyleCI][ico-styleci]][link-styleci]
 
 A simple api controller helper trait, compatible with Lumen 5+ and Laravel 5+. The goal of this project is to make creating API projects simple. Inspired by Jeffrey Way (https://www.laracasts.com)
@@ -50,9 +52,12 @@ Laravel Api Controller is open-sourced software licensed under the [MIT license]
 
 [ico-version]: https://img.shields.io/packagist/v/itsdamien/laravel-api-controller.svg
 [ico-downloads]: https://img.shields.io/packagist/dt/itsdamien/laravel-api-controller.svg
-[ico-license]: https://img.shields.io/badge/license-MIT-brightgreen.svg
+[ico-license]: https://img.shields.io/packagist/l/itsdamien/laravel-api-controller.svg
+[ico-codeclimate]: https://codeclimate.com/repos/58b754014e1b4002920000a9/badges/14e4a50b989e2a51458d/gpa.svg
+[ico-coverage]: https://codeclimate.com/repos/58b754014e1b4002920000a9/badges/14e4a50b989e2a51458d/coverage.svg
 [ico-styleci]: https://styleci.io/repos/83411217/shield?branch=master&style=flat
 
 [link-packagist]: https://packagist.org/packages/itsdamien/laravel-api-controller
 [link-downloads]: https://packagist.org/packages/itsdamien/laravel-api-controller
+[link-codeclimate]: https://codeclimate.com/repos/58b754014e1b4002920000a9/feed
 [link-styleci]: https://styleci.io/repos/83411217
