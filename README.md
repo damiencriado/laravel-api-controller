@@ -1,4 +1,4 @@
-# Laravel 5 / Lumen 5 Api Controller
+<p align="center"><img src="https://www.dropbox.com/s/7ryp106t5nq7ito/laravel-api-controller.png?raw=1" width="600"></p>
 
 [![Packagist Latest Version][ico-version]][link-packagist]
 [![Packagist Total Downloads][ico-downloads]][link-downloads]
