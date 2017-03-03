@@ -3,7 +3,7 @@
 namespace ItsDamien\Api;
 
 use Illuminate\Http\Response;
-use Response as ResponseFacade;
+use Illuminate\Routing\ResponseFactory;
 
 trait ApiController
 {
@@ -45,7 +45,7 @@ trait ApiController
      */
     public function respond($data, array $headers = [])
     {
-        return ResponseFacade::json($data, $this->getStatusCode(), $headers);
+        return ResponseFactory::json($data, $this->getStatusCode(), $headers);
     }
 
     /**
