@@ -15,7 +15,7 @@ trait ApiController
     /**
      * @param string $message
      *
-     * @return mixed
+     * @return \Illuminate\Http\JsonResponse
      */
     public function respondNotFound($message = 'Not Found')
     {
@@ -25,7 +25,7 @@ trait ApiController
     /**
      * @param $message
      *
-     * @return mixed
+     * @return \Illuminate\Http\JsonResponse
      */
     public function respondWithError($message)
     {
@@ -71,7 +71,7 @@ trait ApiController
     /**
      * @param string|array $message
      *
-     * @return mixed
+     * @return \Illuminate\Http\JsonResponse
      */
     public function respondBadRequest($message = 'Bad Request')
     {
@@ -81,7 +81,7 @@ trait ApiController
     /**
      * @param string|array $message
      *
-     * @return mixed
+     * @return \Illuminate\Http\JsonResponse
      */
     public function respondServerError($message = 'Server Error')
     {
@@ -91,7 +91,7 @@ trait ApiController
     /**
      * @param string|array $message
      *
-     * @return mixed
+     * @return \Illuminate\Http\JsonResponse
      */
     public function respondConflict($message = 'Conflict')
     {
@@ -101,7 +101,7 @@ trait ApiController
     /**
      * @param string|array $message
      *
-     * @return mixed
+     * @return \Illuminate\Http\JsonResponse
      */
     public function respondUnprocessable($message = 'Unprocessable Entity')
     {
@@ -111,7 +111,7 @@ trait ApiController
     /**
      * @param string|array $message
      *
-     * @return mixed
+     * @return \Illuminate\Http\JsonResponse
      */
     public function respondUnauthorized($message = 'Unauthorized')
     {
@@ -121,7 +121,7 @@ trait ApiController
     /**
      * @param string|array $message
      *
-     * @return mixed
+     * @return \Illuminate\Http\JsonResponse
      */
     public function respondForbidden($message = 'Forbidden')
     {
@@ -131,9 +131,9 @@ trait ApiController
     /**
      * @param string|array $data
      *
-     * @return mixed
+     * @return \Illuminate\Http\JsonResponse
      */
-    public function respondCreated($data)
+    public function respondCreated($data = null)
     {
         return $this->setStatusCode(Response::HTTP_CREATED)->respond($data);
     }
