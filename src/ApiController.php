@@ -2,8 +2,8 @@
 
 namespace ItsDamien\Api;
 
+use Illuminate\Http\JsonResponse;
 use Illuminate\Http\Response;
-use Illuminate\Routing\ResponseFactory;
 
 trait ApiController
 {
@@ -45,7 +45,7 @@ trait ApiController
      */
     public function respond($data, array $headers = [])
     {
-        return ResponseFactory::json($data, $this->getStatusCode(), $headers);
+        return new JsonResponse($data, $this->getStatusCode(), $headers);
     }
 
     /**
