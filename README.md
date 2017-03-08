@@ -5,7 +5,7 @@
 [![License](https://poser.pugx.org/itsdamien/laravel-api-controller/license)](https://packagist.org/packages/itsdamien/laravel-api-controller)
 [![Build Status](https://travis-ci.org/itsDamien/laravel-api-controller.svg?branch=master)](https://travis-ci.org/itsDamien/laravel-api-controller)
 [![Coverage Status](https://coveralls.io/repos/github/itsDamien/laravel-api-controller/badge.svg?branch=master)](https://coveralls.io/github/itsDamien/laravel-api-controller?branch=master)
-[![Code Climate](https://codeclimate.com/repos/58b754014e1b4002920000a9/badges/14e4a50b989e2a51458d/gpa.svg)](https://codeclimate.com/repos/58b754014e1b4002920000a9/feed)
+[![Code Climate](https://codeclimate.com/github/itsDamien/laravel-api-controller/badges/gpa.svg)](https://codeclimate.com/github/itsDamien/laravel-api-controller)
 [![StyleCI](https://styleci.io/repos/83411217/shield?branch=master&style=flat)](https://styleci.io/repos/83411217)
 
 A simple api controller helper trait, compatible with Lumen 5+ and Laravel 5+. The goal of this project is to make creating API projects simple. Inspired by Jeffrey Way (https://www.laracasts.com)
