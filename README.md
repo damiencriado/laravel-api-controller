@@ -1,11 +1,12 @@
-<p align="center"><img src="https://www.dropbox.com/s/7ryp106t5nq7ito/laravel-api-controller.png?raw=1" width="600"></p>
+![Laravel Api Controller](https://ohmybadge.com/ohmybadge.svg?a=LARAVEL&b=API%20CONTROLLER&s=energy-drink)
+---
 
 [![Latest Stable Version](https://poser.pugx.org/itsdamien/laravel-api-controller/v/stable)](https://packagist.org/packages/itsdamien/laravel-api-controller)
 [![Total Downloads](https://poser.pugx.org/itsdamien/laravel-api-controller/downloads)](https://packagist.org/packages/itsdamien/laravel-api-controller)
 [![License](https://poser.pugx.org/itsdamien/laravel-api-controller/license)](https://packagist.org/packages/itsdamien/laravel-api-controller)
 [![Build Status](https://travis-ci.org/itsDamien/laravel-api-controller.svg?branch=master)](https://travis-ci.org/itsDamien/laravel-api-controller)
-[![Coverage Status](https://coveralls.io/repos/github/itsDamien/laravel-api-controller/badge.svg?branch=master)](https://coveralls.io/github/itsDamien/laravel-api-controller?branch=master)
-[![Code Climate](https://codeclimate.com/github/itsDamien/laravel-api-controller/badges/gpa.svg)](https://codeclimate.com/github/itsDamien/laravel-api-controller)
+[![Maintainability](https://api.codeclimate.com/v1/badges/56a6ab3964fcf2fff6fa/maintainability)](https://codeclimate.com/github/itsDamien/laravel-api-controller/maintainability)
+[![Test Coverage](https://api.codeclimate.com/v1/badges/56a6ab3964fcf2fff6fa/test_coverage)](https://codeclimate.com/github/itsDamien/laravel-api-controller/test_coverage)
 [![StyleCI](https://styleci.io/repos/83411217/shield?branch=master&style=flat)](https://styleci.io/repos/83411217)
 
 A simple api controller helper trait, compatible with Lumen 5+ and Laravel 5+. The goal of this project is to make creating API projects simple. Inspired by Jeffrey Way (https://www.laracasts.com)
