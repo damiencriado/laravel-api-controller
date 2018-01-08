@@ -32,7 +32,3 @@ notifications:
   email:
     on_success: never
     on_failure: always
-
-env:
-  global:
-    - CC_TEST_REPORTER_ID=409e181b07280981a7487bead889240373d6dfd01ec6cb94f52025a5a2b1859b
