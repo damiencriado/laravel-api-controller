@@ -1,5 +1,4 @@
-![Laravel Api Controller](https://ohmybadge.com/ohmybadge.svg?a=LARAVEL&b=API%20CONTROLLER&s=energy-drink)
----
+# Laravel Api Controller
 
 [![Latest Stable Version](https://poser.pugx.org/itsdamien/laravel-api-controller/v/stable)](https://packagist.org/packages/itsdamien/laravel-api-controller)
 [![Total Downloads](https://poser.pugx.org/itsdamien/laravel-api-controller/downloads)](https://packagist.org/packages/itsdamien/laravel-api-controller)
