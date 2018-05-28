@@ -1,4 +1,4 @@
-# Laravel Api Controller
+[![itsDamien Laravel API Controller](https://ohmybadge.com/ohmybadge.svg?a=itsDamien&b=Laravel%20API%20Controller&r=3&s=azur)](https://github.com/itsDamien/laravel-api-controller)
 
 [![Latest Stable Version](https://poser.pugx.org/itsdamien/laravel-api-controller/v/stable)](https://packagist.org/packages/itsdamien/laravel-api-controller)
 [![Total Downloads](https://poser.pugx.org/itsdamien/laravel-api-controller/downloads)](https://packagist.org/packages/itsdamien/laravel-api-controller)
